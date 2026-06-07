@@ -5,107 +5,79 @@
         "backgrounds": [
             "https://i.imgur.com/holo_stage_bg.jpg"
         ],
-        "decksUrl": "https://cardlist-holo.tiiny.site"
+        "decksUrl": "https://raw.githubusercontent.com/AlexanderLab/holo-for-friends/main/cards-hololive.json"
     },
-    "customHelp": "Hololive OCG fan implementation. Build a Main Deck, select 1 Oshi, and use Cheer Deck as resource system. Bloom Holomem through stages and battle in Center Stage.",
+    "customHelp": "Hololive OCG fan implementation.",
     "cardRotation": 45,
     "cards": {
-        "dataUrl": "https://raw.githubusercontent.com/AlexanderLab/holo-for-friends/refs/heads/main/cards-hololive.json",
-        "cardBack": "https://ibb.co/r2CRSNJp"
+        "dataUrl": "https://raw.githubusercontent.com/AlexanderLab/holo-for-friends/main/cards-hololive.json",
+        "cardBack": "https://i.imgur.com/r2CRSNJp.jpg"
     },
     "deckBuilding": {
-        "mainZone": "mainDeck",
-        "sideZone": "considering",
-        "formats": [
-            {
+        "mainDeckSize": {
+            "min": 40,
+            "max": 50
+        },
+        "cheerDeckSize": 20,
+        "required": {
+            "oshi": 1
+        },
+        "zones": [
+            "mainDeck"
+        ],
+        "sideboard": [],
+        "formats": {
+            "Standard": {
                 "title": "Standard",
-                "gameplay": "Hololive Standard",
                 "rules": [
-                    "Deck size: 40-50 cards",
                     "Max 4 copies per card",
-                    "Must include exactly 1 Oshi card",
-                    "Cheer Deck is separate (20 cards fixed)"
-                ],
-                "zonesAllowed": [
-                    "mainDeck"
-                ],
-                "requiredSelections": [
-                    "oshi"
-                ],
-                "customCategories": [
-                    "Oshi",
-                    "Holomem",
-                    "Support",
-                    "Cheer"
+                    "Deck size 40-50",
+                    "1 Oshi required"
                 ]
             }
-        ]
+        }
     },
     "gameplay": {
         "zones": {
             "mainDeck": {
                 "type": "deck",
                 "name": "Main Deck",
-                "hidden": true,
-                "maxCards": 50
+                "hidden": true
             },
             "cheerDeck": {
                 "type": "deck",
                 "name": "Cheer Deck",
-                "hidden": true,
-                "maxCards": 20
+                "hidden": true
             },
             "hand": {
-                "type": "hand",
-                "name": "Hand"
+                "type": "hand"
             },
             "archive": {
-                "type": "graveyard",
-                "name": "Archive"
+                "type": "graveyard"
             },
             "oshi": {
                 "type": "leader",
-                "name": "Oshi Zone",
                 "maxCards": 1
             },
             "center": {
                 "type": "battlefield",
-                "name": "Center Stage",
                 "maxCards": 1
             },
             "collab": {
                 "type": "battlefield",
-                "name": "Collab Stage",
                 "maxCards": 1
             },
             "backstage": {
                 "type": "battlefield",
-                "name": "Back Stage",
                 "maxCards": 5
             }
         },
         "lifeSystem": {
-            "startingLife": 4,
-            "zone": "life"
+            "startingLife": 4
         },
         "startingRules": {
             "startingHand": 6,
-            "maxHandSize": 10,
             "drawPerTurn": 1
-        },
-        "winConditions": [
-            "Opponent Oshi reaches 0 Life",
-            "Opponent cannot draw a card",
-            "Opponent has no Holomem in play"
-        ],
-        "keywords": [
-            "BLOOM",
-            "CHEER",
-            "COLLAB",
-            "OSHI_SKILL",
-            "SUPPORT",
-            "BACKSTAGE",
-            "CENTER_STAGE"
-        ]
+        }
     }
 }
