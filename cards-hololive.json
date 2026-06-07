@@ -1,50 +1,322 @@
 {
+    "hBP01-001": {
+        "id": "hBP01-001",
+        "isToken": false,
+        "face": {
+            "front": {
+                "name": "Tokino Sora",
+                "type": "oshi",
+                "cost": 0,
+                "image": "https://i.imgur.com/sora.jpg",
+                "isHorizontal": false
+            }
+        },
+        "name": "Tokino Sora",
+        "type": "oshi",
+        "cost": 0
+    },
     "hBP01-002": {
         "id": "hBP01-002",
         "isToken": false,
         "face": {
             "front": {
-                "name": "Nanashi Mumei",
-                "type": false,
+                "name": "Roboco",
+                "type": "oshi",
                 "cost": 0,
-                "image": "https://ibb.co/r2CRSNJp",
+                "image": "https://i.imgur.com/roboco.jpg",
                 "isHorizontal": false
             }
         },
-        "name": "Nanashi Mumei",
-        "type": false,
+        "name": "Roboco",
+        "type": "oshi",
         "cost": 0
     },
-    "": {
-        "id": "",
+    "hBP01-003": {
+        "id": "hBP01-003",
         "isToken": false,
         "face": {
             "front": {
-                "name": "",
-                "type": false,
+                "name": "AZKi",
+                "type": "oshi",
                 "cost": 0,
-                "image": "",
+                "image": "https://i.imgur.com/azki.jpg",
                 "isHorizontal": false
             }
         },
-        "name": "",
-        "type": false,
+        "name": "AZKi",
+        "type": "oshi",
         "cost": 0
     },
-    "hBp001-003": {
-        "id": "hBp001-003",
+    "hBP01-004": {
+        "id": "hBP01-004",
         "isToken": false,
         "face": {
             "front": {
-                "name": "",
-                "type": false,
+                "name": "Shirakami Fubuki",
+                "type": "oshi",
                 "cost": 0,
-                "image": "",
+                "image": "https://i.imgur.com/fubuki.jpg",
                 "isHorizontal": false
             }
         },
-        "name": "Otro",
-        "type": false,
+        "name": "Shirakami Fubuki",
+        "type": "oshi",
         "cost": 0
+    },
+    "hBP01-005": {
+        "id": "hBP01-005",
+        "isToken": false,
+        "face": {
+            "front": {
+                "name": "Sakura Miko (Debut)",
+                "type": "holomem",
+                "cost": 1,
+                "image": "https://i.imgur.com/miko1.jpg",
+                "isHorizontal": false
+            }
+        },
+        "name": "Sakura Miko (Debut)",
+        "type": "holomem",
+        "cost": 1
+    },
+    "hBP01-006": {
+        "id": "hBP01-006",
+        "isToken": false,
+        "face": {
+            "front": {
+                "name": "Sakura Miko (1st)",
+                "type": "holomem",
+                "cost": 2,
+                "image": "https://i.imgur.com/miko2.jpg",
+                "isHorizontal": false
+            }
+        },
+        "name": "Sakura Miko (1st)",
+        "type": "holomem",
+        "cost": 2
+    },
+    "hBP01-007": {
+        "id": "hBP01-007",
+        "isToken": false,
+        "face": {
+            "front": {
+                "name": "Usada Pekora (Debut)",
+                "type": "holomem",
+                "cost": 1,
+                "image": "https://i.imgur.com/pekora1.jpg",
+                "isHorizontal": false
+            }
+        },
+        "name": "Usada Pekora (Debut)",
+        "type": "holomem",
+        "cost": 1
+    },
+    "hBP01-008": {
+        "id": "hBP01-008",
+        "isToken": false,
+        "face": {
+            "front": {
+                "name": "Usada Pekora (1st)",
+                "type": "holomem",
+                "cost": 2,
+                "image": "https://i.imgur.com/pekora2.jpg",
+                "isHorizontal": false
+            }
+        },
+        "name": "Usada Pekora (1st)",
+        "type": "holomem",
+        "cost": 2
+    },
+    "hBP01-009": {
+        "id": "hBP01-009",
+        "isToken": false,
+        "face": {
+            "front": {
+                "name": "Houshou Marine (Debut)",
+                "type": "holomem",
+                "cost": 1,
+                "image": "https://i.imgur.com/marine1.jpg",
+                "isHorizontal": false
+            }
+        },
+        "name": "Houshou Marine (Debut)",
+        "type": "holomem",
+        "cost": 1
+    },
+    "hBP01-010": {
+        "id": "hBP01-010",
+        "isToken": false,
+        "face": {
+            "front": {
+                "name": "Houshou Marine (1st)",
+                "type": "holomem",
+                "cost": 2,
+                "image": "https://i.imgur.com/marine2.jpg",
+                "isHorizontal": false
+            }
+        },
+        "name": "Houshou Marine (1st)",
+        "type": "holomem",
+        "cost": 2
+    },
+    "hBP01-011": {
+        "id": "hBP01-011",
+        "isToken": false,
+        "face": {
+            "front": {
+                "name": "Gawr Gura (Debut)",
+                "type": "holomem",
+                "cost": 1,
+                "image": "https://i.imgur.com/gura1.jpg",
+                "isHorizontal": false
+            }
+        },
+        "name": "Gawr Gura (Debut)",
+        "type": "holomem",
+        "cost": 1
+    },
+    "hBP01-012": {
+        "id": "hBP01-012",
+        "isToken": false,
+        "face": {
+            "front": {
+                "name": "Gawr Gura (1st)",
+                "type": "holomem",
+                "cost": 2,
+                "image": "https://i.imgur.com/gura2.jpg",
+                "isHorizontal": false
+            }
+        },
+        "name": "Gawr Gura (1st)",
+        "type": "holomem",
+        "cost": 2
+    },
+    "hBP01-013": {
+        "id": "hBP01-013",
+        "isToken": false,
+        "face": {
+            "front": {
+                "name": "Calliope Mori (Debut)",
+                "type": "holomem",
+                "cost": 1,
+                "image": "https://i.imgur.com/calli1.jpg",
+                "isHorizontal": false
+            }
+        },
+        "name": "Calliope Mori (Debut)",
+        "type": "holomem",
+        "cost": 1
+    },
+    "hBP01-014": {
+        "id": "hBP01-014",
+        "isToken": false,
+        "face": {
+            "front": {
+                "name": "Calliope Mori (1st)",
+                "type": "holomem",
+                "cost": 2,
+                "image": "https://i.imgur.com/calli2.jpg",
+                "isHorizontal": false
+            }
+        },
+        "name": "Calliope Mori (1st)",
+        "type": "holomem",
+        "cost": 2
+    },
+    "hBP01-015": {
+        "id": "hBP01-015",
+        "isToken": false,
+        "face": {
+            "front": {
+                "name": "Kobo Kanaeru (Debut)",
+                "type": "holomem",
+                "cost": 1,
+                "image": "https://i.imgur.com/kobo1.jpg",
+                "isHorizontal": false
+            }
+        },
+        "name": "Kobo Kanaeru (Debut)",
+        "type": "holomem",
+        "cost": 1
+    },
+    "hBP01-016": {
+        "id": "hBP01-016",
+        "isToken": false,
+        "face": {
+            "front": {
+                "name": "Kobo Kanaeru (1st)",
+                "type": "holomem",
+                "cost": 2,
+                "image": "https://i.imgur.com/kobo2.jpg",
+                "isHorizontal": false
+            }
+        },
+        "name": "Kobo Kanaeru (1st)",
+        "type": "holomem",
+        "cost": 2
+    },
+    "hBP01-017": {
+        "id": "hBP01-017",
+        "isToken": false,
+        "face": {
+            "front": {
+                "name": "Nanashi Mumei (Debut)",
+                "type": "holomem",
+                "cost": 1,
+                "image": "https://i.imgur.com/mumei1.jpg",
+                "isHorizontal": false
+            }
+        },
+        "name": "Nanashi Mumei (Debut)",
+        "type": "holomem",
+        "cost": 1
+    },
+    "hBP01-018": {
+        "id": "hBP01-018",
+        "isToken": false,
+        "face": {
+            "front": {
+                "name": "Nanashi Mumei (1st)",
+                "type": "holomem",
+                "cost": 2,
+                "image": "https://i.imgur.com/mumei2.jpg",
+                "isHorizontal": false
+            }
+        },
+        "name": "Nanashi Mumei (1st)",
+        "type": "holomem",
+        "cost": 2
+    },
+    "hBP01-019": {
+        "id": "hBP01-019",
+        "isToken": false,
+        "face": {
+            "front": {
+                "name": "Support: Live Stage",
+                "type": "support",
+                "cost": 2,
+                "image": "https://i.imgur.com/support1.jpg",
+                "isHorizontal": false
+            }
+        },
+        "name": "Support: Live Stage",
+        "type": "support",
+        "cost": 2
+    },
+    "hBP01-020": {
+        "id": "hBP01-020",
+        "isToken": false,
+        "face": {
+            "front": {
+                "name": "Support: Fan Boost",
+                "type": "support",
+                "cost": 1,
+                "image": "https://i.imgur.com/support2.jpg",
+                "isHorizontal": false
+            }
+        },
+        "name": "Support: Fan Boost",
+        "type": "support",
+        "cost": 1
     }
 }
