@@ -63,17 +63,12 @@
                             "section": "Oshi"
                         },
                         {
-                            "type": "column",
-                            "content": [
-                                {
-                                    "type": "section",
-                                    "section": "Life"
-                                },
-                                {
-                                    "type": "section",
-                                    "section": "Cheers deck"
-                                }
-                            ]
+                            "type": "section",
+                            "section": "Life"
+                        },
+                        {
+                            "type": "section",
+                            "section": "Cheers deck"
                         }
                     ]
                 },
