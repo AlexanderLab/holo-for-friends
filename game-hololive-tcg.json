@@ -10,7 +10,7 @@
     "customHelp": "Hololive OCG fan implementation. Build a Main Deck, select 1 Oshi, and use Cheer Deck as resource system. Bloom Holomem through stages and battle in Center Stage.",
     "cardRotation": 45,
     "cards": {
-        "dataUrl": "https://raw.githubusercontent.com/AlexanderLab/holo-for-friends/refs/heads/main/cards-hololive.json?token=GHSAT0AAAAAADWRSVTSU26NUNMSC2QSXKOO2RFI3YA",
+        "dataUrl": "https://raw.githubusercontent.com/AlexanderLab/holo-for-friends/refs/heads/main/cards-hololive.json",
         "cardBack": "https://ibb.co/r2CRSNJp"
     },
     "deckBuilding": {
