@@ -57,20 +57,7 @@
                 "layout": {
                     "direction": "row",
                     "isSymetricalForOpponents": true,
-                    "content": [
-                        {
-                            "type": "section",
-                            "section": "Oshi"
-                        },
-                        {
-                            "type": "section",
-                            "section": "Life"
-                        },
-                        {
-                            "type": "section",
-                            "section": "Cheers deck"
-                        }
-                    ]
+                    "content": []
                 },
                 "categoriesAlreadyOnBoard": [
                     "Oshi"
