@@ -1,79 +1,124 @@
 {
-    "name": "Hololive Official Card Game (Fan Engine)",
-    "menuBackgroundImage": "https://i.imgur.com/8Q9ZQbR.jpeg",
+    "name": "Hololive - TCG Enyoyers",
+    "menuBackgroundImage": "https://static.zerochan.net/Hololive.1024.2519055.webp",
     "defaultRessources": {
         "backgrounds": [
-            "https://i.imgur.com/holo_stage_bg.jpg"
+            "https://static.zerochan.net/Hololive.1024.2519055.webp"
         ],
-        "decksUrl": "https://raw.githubusercontent.com/AlexanderLab/holo-for-friends/main/cards-hololive.json"
+        "decksUrl": ""
     },
-    "customHelp": "Hololive OCG fan implementation.",
+    "customHelp": "Hololive TCG para mis enyoyers",
     "cardRotation": 45,
     "cards": {
         "dataUrl": "https://raw.githubusercontent.com/AlexanderLab/holo-for-friends/main/cards-hololive.json",
-        "cardBack": "https://i.imgur.com/r2CRSNJp.jpg"
+        "cardBack": "https://static.zerochan.net/Watson.Amelia.1024.3563406.webp"
     },
     "deckBuilding": {
-        "mainZone": "mainDeck",
+        "mainFilters": [
+            "Deck size 40-50 cards",
+            "Max 4 copies per card",
+            "Must include 1 Oshi card"
+        ],
         "formats": [
             {
-                "id": "standard",
                 "title": "Standard",
-                "gameplay": "Hololive Standard",
-                "rules": [
-                    "Deck size 40-50 cards",
-                    "Max 4 copies per card",
-                    "Must include 1 Oshi card"
+                "gameplay": "Standard",
+                "customCategories": [
+                    "Oshi",
+                    "Main",
+                    "Cheer"
                 ]
             }
         ]
     },
     "gameplay": {
-        "zones": {
-            "mainDeck": {
-                "type": "deck",
-                "name": "Main Deck",
-                "maxCards": 50
+        "Classic": {
+            "mulligan": {
+                "info": "Redraw Hand",
+                "startingHandSize": 7,
+                "drawNewHand": true,
+                "putSelectionAtBottom": false,
+                "drawNewSelectedCards": false
             },
-            "cheerDeck": {
-                "type": "deck",
-                "name": "Cheer Deck",
-                "maxCards": 20
+            "newTurn": {
+                "drawOnStart": false,
+                "sharedTurn": false,
+                "firstPlayerTokenName": "",
+                "drawPerTurn": 1
             },
-            "hand": {
-                "type": "hand"
-            },
-            "archive": {
-                "type": "graveyard"
-            },
-            "oshi": {
-                "type": "leader",
-                "maxCards": 1
-            },
-            "center": {
-                "type": "battlefield",
-                "maxCards": 1
-            },
-            "collab": {
-                "type": "battlefield",
-                "maxCards": 1
-            },
-            "backstage": {
-                "type": "battlefield",
-                "maxCards": 5
+            "defaultNotes": "",
+            "tokens": [],
+            "countersStartingValues": [
+                "1"
+            ],
+            "hideFacedDownCards": false,
+            "sections": {
+                "customSections": [
+                    "Cheers deck",
+                    "Life",
+                    "Oshi"
+                ],
+                "layout": {
+                    "direction": "row",
+                    "isSymetricalForOpponents": false,
+                    "content": []
+                },
+                "categoriesAlreadyOnBoard": [
+                    "Oshi"
+                ],
+                "autoPlayFromHand": {},
+                "autoPlayFromStack": {},
+                "sectionsDict": {
+                    "Cheers deck": {
+                        "title": "Cheers",
+                        "isHidden": "yes",
+                        "height": "SMALL",
+                        "alignment": "START",
+                        "opponentAlignment": false,
+                        "noAutoPayTo": "true",
+                        "isHorizontalAllowed": false,
+                        "displayedTitle": "Ressources",
+                        "enterTapped": false,
+                        "enterSpun": false,
+                        "isGroupForbidden": false,
+                        "keepTappedNewTurn": false,
+                        "showHiddenCardInHistory": false,
+                        "noQuickActions": false
+                    },
+                    "Life": {
+                        "title": "Life",
+                        "isHidden": "yes",
+                        "height": "SMALL",
+                        "alignment": "CENTER",
+                        "opponentAlignment": false,
+                        "noAutoPayTo": false,
+                        "isHorizontalAllowed": true,
+                        "displayedTitle": "",
+                        "noQuickActions": false,
+                        "enterTapped": false,
+                        "enterSpun": false,
+                        "isGroupForbidden": false,
+                        "keepTappedNewTurn": false,
+                        "showHiddenCardInHistory": false
+                    },
+                    "Oshi": {
+                        "title": "Oshi",
+                        "isHidden": "no",
+                        "height": "SMALL",
+                        "alignment": "CENTER",
+                        "opponentAlignment": false,
+                        "noAutoPayTo": false,
+                        "isHorizontalAllowed": true,
+                        "displayedTitle": "",
+                        "noQuickActions": false,
+                        "enterTapped": false,
+                        "enterSpun": false,
+                        "isGroupForbidden": false,
+                        "keepTappedNewTurn": false,
+                        "showHiddenCardInHistory": false
+                    }
+                }
             }
-        },
-        "lifeSystem": {
-            "startingLife": 4
-        },
-        "startingRules": {
-            "startingHand": 6,
-            "drawPerTurn": 1
-        },
-        "winConditions": [
-            "Opponent Oshi reaches 0 Life",
-            "Opponent cannot draw a card",
-            "Opponent has no Holomem in play"
-        ]
+        }
     }
 }
