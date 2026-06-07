@@ -1,0 +1,70 @@
+{
+    "name": "Hololive Official Card Game",
+    "menuBackgroundImage": "https://i.imgur.com/8Q9ZQbR.jpeg",
+    "defaultRessources": {
+        "backgrounds": [
+            "https://i.imgur.com/background_holo_stage.jpg"
+        ],
+        "decksUrl": "https://cardlist-holo.tiiny.site"
+    },
+    "customHelp": "Hololive OCG fan adaptation. Use Oshi, Holomem, Cheer Deck, Bloom system and stage zones (Center, Back, Collab).",
+    "cardRotation": 45,
+    "cards": {
+        "dataUrl": "https://cardlist-holo.tiiny.site",
+        "cardBack": "https://i.imgur.com/holo_card_back.png"
+    },
+    "deckBuilding": {
+        "mainFilters": [
+            "Maximum cards 50",
+            "Maximum 4 copies per card",
+            "Must include 1 Oshi card"
+        ],
+        "formats": [
+            {
+                "title": "Standard",
+                "gameplay": "Hololive Standard",
+                "customCategories": [
+                    "Oshi",
+                    "Holomem",
+                    "Support",
+                    "Cheer"
+                ]
+            }
+        ]
+    },
+    "gameplay": {
+        "lifeSystem": {
+            "startingLife": 4,
+            "lifeZone": "Life"
+        },
+        "zones": {
+            "oshi": 1,
+            "center": 1,
+            "collab": 1,
+            "backstage": 5
+        },
+        "coreRules": [
+            "Each player must include 1 Oshi card",
+            "Start with 6 cards",
+            "Draw 1 card per turn",
+            "You may Bloom Holomem to higher stages",
+            "Cheer cards are attached as resources",
+            "Center Stage attacks opponent Oshi",
+            "Game ends when opponent Oshi reaches 0 Life"
+        ],
+        "keywords": [
+            "BLOOM",
+            "COLLAB",
+            "CHEER",
+            "OSHI_SKILL",
+            "SUPPORT",
+            "ATTACK",
+            "BACKSTAGE"
+        ],
+        "winConditions": [
+            "Opponent Oshi reaches 0 Life",
+            "Opponent cannot draw a card",
+            "Opponent has no Holomem in play"
+        ]
+    }
+}

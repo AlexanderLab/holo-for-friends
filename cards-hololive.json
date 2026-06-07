@@ -1,0 +1,50 @@
+{
+    "hBP01-002": {
+        "id": "hBP01-002",
+        "isToken": false,
+        "face": {
+            "front": {
+                "name": "Nanashi Mumei",
+                "type": false,
+                "cost": 0,
+                "image": "https://ibb.co/r2CRSNJp",
+                "isHorizontal": false
+            }
+        },
+        "name": "Nanashi Mumei",
+        "type": false,
+        "cost": 0
+    },
+    "": {
+        "id": "",
+        "isToken": false,
+        "face": {
+            "front": {
+                "name": "",
+                "type": false,
+                "cost": 0,
+                "image": "",
+                "isHorizontal": false
+            }
+        },
+        "name": "",
+        "type": false,
+        "cost": 0
+    },
+    "hBp001-003": {
+        "id": "hBp001-003",
+        "isToken": false,
+        "face": {
+            "front": {
+                "name": "",
+                "type": false,
+                "cost": 0,
+                "image": "",
+                "isHorizontal": false
+            }
+        },
+        "name": "Otro",
+        "type": false,
+        "cost": 0
+    }
+}
