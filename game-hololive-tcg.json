@@ -10,8 +10,8 @@
     "customHelp": "Hololive OCG fan adaptation. Use Oshi, Holomem, Cheer Deck, Bloom system and stage zones (Center, Back, Collab).",
     "cardRotation": 45,
     "cards": {
-        "dataUrl": "https://cardlist-holo.tiiny.site",
-        "cardBack": "https://i.imgur.com/holo_card_back.png"
+        "dataUrl": "https://raw.githubusercontent.com/AlexanderLab/holo-for-friends/refs/heads/main/cards-hololive.json?token=GHSAT0AAAAAADWRSVTSEEZ77V5Q5JRXU42I2RFIPDA",
+        "cardBack": "https://ibb.co/r2CRSNJp"
     },
     "deckBuilding": {
         "mainFilters": [
