@@ -1,28 +1,37 @@
 {
-    "name": "Hololive Official Card Game",
+    "name": "Hololive Official Card Game (Fan Engine)",
     "menuBackgroundImage": "https://i.imgur.com/8Q9ZQbR.jpeg",
     "defaultRessources": {
         "backgrounds": [
-            "https://i.imgur.com/background_holo_stage.jpg"
+            "https://i.imgur.com/holo_stage_bg.jpg"
         ],
         "decksUrl": "https://cardlist-holo.tiiny.site"
     },
-    "customHelp": "Hololive OCG fan adaptation. Use Oshi, Holomem, Cheer Deck, Bloom system and stage zones (Center, Back, Collab).",
+    "customHelp": "Hololive OCG fan implementation. Build a Main Deck, select 1 Oshi, and use Cheer Deck as resource system. Bloom Holomem through stages and battle in Center Stage.",
     "cardRotation": 45,
     "cards": {
-        "dataUrl": "https://raw.githubusercontent.com/AlexanderLab/holo-for-friends/refs/heads/main/cards-hololive.json?token=GHSAT0AAAAAADWRSVTSEEZ77V5Q5JRXU42I2RFIPDA",
+        "dataUrl": "https://raw.githubusercontent.com/AlexanderLab/holo-for-friends/refs/heads/main/cards-hololive.json?token=GHSAT0AAAAAADWRSVTTORTCGN57G6GIAECG2RFIXXA",
         "cardBack": "https://ibb.co/r2CRSNJp"
     },
     "deckBuilding": {
-        "mainFilters": [
-            "Maximum cards 50",
-            "Maximum 4 copies per card",
-            "Must include 1 Oshi card"
-        ],
+        "mainZone": "mainDeck",
+        "sideZone": "considering",
         "formats": [
             {
                 "title": "Standard",
                 "gameplay": "Hololive Standard",
+                "rules": [
+                    "Deck size: 40-50 cards",
+                    "Max 4 copies per card",
+                    "Must include exactly 1 Oshi card",
+                    "Cheer Deck is separate (20 cards fixed)"
+                ],
+                "zonesAllowed": [
+                    "mainDeck"
+                ],
+                "requiredSelections": [
+                    "oshi"
+                ],
                 "customCategories": [
                     "Oshi",
                     "Holomem",
@@ -33,38 +42,70 @@
         ]
     },
     "gameplay": {
+        "zones": {
+            "mainDeck": {
+                "type": "deck",
+                "name": "Main Deck",
+                "hidden": true,
+                "maxCards": 50
+            },
+            "cheerDeck": {
+                "type": "deck",
+                "name": "Cheer Deck",
+                "hidden": true,
+                "maxCards": 20
+            },
+            "hand": {
+                "type": "hand",
+                "name": "Hand"
+            },
+            "archive": {
+                "type": "graveyard",
+                "name": "Archive"
+            },
+            "oshi": {
+                "type": "leader",
+                "name": "Oshi Zone",
+                "maxCards": 1
+            },
+            "center": {
+                "type": "battlefield",
+                "name": "Center Stage",
+                "maxCards": 1
+            },
+            "collab": {
+                "type": "battlefield",
+                "name": "Collab Stage",
+                "maxCards": 1
+            },
+            "backstage": {
+                "type": "battlefield",
+                "name": "Back Stage",
+                "maxCards": 5
+            }
+        },
         "lifeSystem": {
             "startingLife": 4,
-            "lifeZone": "Life"
+            "zone": "life"
         },
-        "zones": {
-            "oshi": 1,
-            "center": 1,
-            "collab": 1,
-            "backstage": 5
+        "startingRules": {
+            "startingHand": 6,
+            "maxHandSize": 10,
+            "drawPerTurn": 1
         },
-        "coreRules": [
-            "Each player must include 1 Oshi card",
-            "Start with 6 cards",
-            "Draw 1 card per turn",
-            "You may Bloom Holomem to higher stages",
-            "Cheer cards are attached as resources",
-            "Center Stage attacks opponent Oshi",
-            "Game ends when opponent Oshi reaches 0 Life"
-        ],
-        "keywords": [
-            "BLOOM",
-            "COLLAB",
-            "CHEER",
-            "OSHI_SKILL",
-            "SUPPORT",
-            "ATTACK",
-            "BACKSTAGE"
-        ],
         "winConditions": [
             "Opponent Oshi reaches 0 Life",
             "Opponent cannot draw a card",
             "Opponent has no Holomem in play"
+        ],
+        "keywords": [
+            "BLOOM",
+            "CHEER",
+            "COLLAB",
+            "OSHI_SKILL",
+            "SUPPORT",
+            "BACKSTAGE",
+            "CENTER_STAGE"
         ]
     }
 }
