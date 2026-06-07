@@ -1,5 +1,5 @@
 {
-    "name": "Hololive Official Card Game (Fan Engine)",
+    "name": "Hololive Official Card Game (Safe Build)",
     "menuBackgroundImage": "https://i.imgur.com/8Q9ZQbR.jpeg",
     "defaultRessources": {
         "backgrounds": [
@@ -7,68 +7,81 @@
         ],
         "decksUrl": "https://raw.githubusercontent.com/AlexanderLab/holo-for-friends/main/cards-hololive.json"
     },
-    "customHelp": "Hololive OCG fan implementation.",
+    "customHelp": "Safe Hololive OCG configuration. Prevents engine crashes due to undefined deckbuilding structures.",
     "cardRotation": 45,
     "cards": {
         "dataUrl": "https://raw.githubusercontent.com/AlexanderLab/holo-for-friends/main/cards-hololive.json",
         "cardBack": "https://i.imgur.com/r2CRSNJp.jpg"
     },
     "deckBuilding": {
-        "mainDeckSize": {
-            "min": 40,
-            "max": 50
-        },
-        "cheerDeckSize": 20,
-        "required": {
-            "oshi": 1
-        },
-        "zones": [
+        "mainZone": "mainDeck",
+        "zonesAllowed": [
             "mainDeck"
         ],
-        "sideboard": [],
-        "formats": {
-            "Standard": {
+        "requiredSelections": [
+            "oshi"
+        ],
+        "rules": {
+            "minDeckSize": 40,
+            "maxDeckSize": 50,
+            "maxCopies": 4,
+            "cheerDeckSize": 20,
+            "oshiRequired": 1
+        },
+        "formats": [
+            {
+                "id": "standard",
                 "title": "Standard",
+                "gameplay": "Hololive Standard",
                 "rules": [
+                    "Deck size 40-50 cards",
                     "Max 4 copies per card",
-                    "Deck size 40-50",
-                    "1 Oshi required"
+                    "Exactly 1 Oshi required",
+                    "Cheer Deck is separate (20 cards fixed)"
                 ]
             }
-        }
+        ]
     },
     "gameplay": {
         "zones": {
             "mainDeck": {
                 "type": "deck",
                 "name": "Main Deck",
-                "hidden": true
+                "hidden": true,
+                "maxCards": 50
             },
             "cheerDeck": {
                 "type": "deck",
                 "name": "Cheer Deck",
-                "hidden": true
+                "hidden": true,
+                "maxCards": 20
             },
             "hand": {
-                "type": "hand"
+                "type": "hand",
+                "name": "Hand"
             },
             "archive": {
-                "type": "graveyard"
+                "type": "graveyard",
+                "name": "Archive"
             },
             "oshi": {
                 "type": "leader",
+                "name": "Oshi Zone",
                 "maxCards": 1
             },
             "center": {
                 "type": "battlefield",
+                "name": "Center Stage",
                 "maxCards": 1
             },
             "collab": {
                 "type": "battlefield",
+                "name": "Collab Stage",
                 "maxCards": 1
             },
             "backstage": {
                 "type": "battlefield",
+                "name": "Back Stage",
                 "maxCards": 5
             }
         },
@@ -77,7 +90,22 @@
         },
         "startingRules": {
             "startingHand": 6,
+            "maxHandSize": 10,
             "drawPerTurn": 1
-        }
+        },
+        "winConditions": [
+            "Opponent Oshi reaches 0 Life",
+            "Opponent cannot draw a card",
+            "Opponent has no Holomem in play"
+        ],
+        "keywords": [
+            "BLOOM",
+            "CHEER",
+            "COLLAB",
+            "OSHI_SKILL",
+            "SUPPORT",
+            "BACKSTAGE",
+            "CENTER_STAGE"
+        ]
     }
 }
