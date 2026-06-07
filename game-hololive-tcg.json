@@ -1,47 +1,79 @@
 {
-    "name": "Hololive Official Card Game (Safe Extreme)",
+    "name": "Hololive Official Card Game (Fan Engine)",
+    "menuBackgroundImage": "https://i.imgur.com/8Q9ZQbR.jpeg",
+    "defaultRessources": {
+        "backgrounds": [
+            "https://i.imgur.com/holo_stage_bg.jpg"
+        ],
+        "decksUrl": "https://raw.githubusercontent.com/AlexanderLab/holo-for-friends/main/cards-hololive.json"
+    },
+    "customHelp": "Hololive OCG fan implementation.",
+    "cardRotation": 45,
     "cards": {
         "dataUrl": "https://raw.githubusercontent.com/AlexanderLab/holo-for-friends/main/cards-hololive.json",
         "cardBack": "https://i.imgur.com/r2CRSNJp.jpg"
     },
     "deckBuilding": {
-        "format": {
-            "Standard": {
+        "mainZone": "mainDeck",
+        "formats": [
+            {
+                "id": "standard",
                 "title": "Standard",
+                "gameplay": "Hololive Standard",
                 "rules": [
-                    "Deck 40-50",
-                    "Max 4 copies",
-                    "1 Oshi required"
+                    "Deck size 40-50 cards",
+                    "Max 4 copies per card",
+                    "Must include 1 Oshi card"
                 ]
             }
-        },
-        "formats": {
-            "Standard": {
-                "title": "Standard"
-            }
-        },
-        "formatsList": [
-            {
-                "title": "Standard"
-            }
-        ],
-        "mainZone": "mainDeck"
+        ]
     },
     "gameplay": {
         "zones": {
             "mainDeck": {
-                "type": "deck"
+                "type": "deck",
+                "name": "Main Deck",
+                "maxCards": 50
             },
             "cheerDeck": {
-                "type": "deck"
+                "type": "deck",
+                "name": "Cheer Deck",
+                "maxCards": 20
             },
             "hand": {
                 "type": "hand"
             },
+            "archive": {
+                "type": "graveyard"
+            },
             "oshi": {
                 "type": "leader",
                 "maxCards": 1
+            },
+            "center": {
+                "type": "battlefield",
+                "maxCards": 1
+            },
+            "collab": {
+                "type": "battlefield",
+                "maxCards": 1
+            },
+            "backstage": {
+                "type": "battlefield",
+                "maxCards": 5
             }
-        }
+        },
+        "lifeSystem": {
+            "startingLife": 4
+        },
+        "startingRules": {
+            "startingHand": 6,
+            "drawPerTurn": 1
+        },
+        "winConditions": [
+            "Opponent Oshi reaches 0 Life",
+            "Opponent cannot draw a card",
+            "Opponent has no Holomem in play"
+        ]
     }
 }
