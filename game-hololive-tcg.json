@@ -14,15 +14,11 @@
         "cardBack": "https://static.zerochan.net/Watson.Amelia.1024.3563406.webp"
     },
     "deckBuilding": {
-        "mainFilters": [
-            "Deck size 40-50 cards",
-            "Max 4 copies per card",
-            "Must include 1 Oshi card"
-        ],
+        "mainFilters": ["type", "cost", "name", "category"],
         "formats": [
             {
                 "title": "Standard",
-                "gameplay": "Standard",
+                "gameplay": "Classic",
                 "customCategories": [
                     "Oshi",
                     "Main",
@@ -60,8 +56,26 @@
                 ],
                 "layout": {
                     "direction": "row",
-                    "isSymetricalForOpponents": false,
-                    "content": []
+                    "isSymetricalForOpponents": true,
+                    "content": [
+                        {
+                            "type": "section",
+                            "section": "Oshi"
+                        },
+                        {
+                            "type": "column",
+                            "content": [
+                                {
+                                    "type": "section",
+                                    "section": "Life"
+                                },
+                                {
+                                    "type": "section",
+                                    "section": "Cheers deck"
+                                }
+                            ]
+                        }
+                    ]
                 },
                 "categoriesAlreadyOnBoard": [
                     "Oshi"
