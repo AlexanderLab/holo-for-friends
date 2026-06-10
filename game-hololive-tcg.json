@@ -34,9 +34,6 @@
     },
     "gameplay": {
         "Classic": {
-            "beforeGameStart": {
-                "initialBoardSetup": []
-            },
             "mulligan": {
                 "info": "Redraw Hand",
                 "startingHandSize": 7,
