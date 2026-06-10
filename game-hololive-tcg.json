@@ -32,7 +32,7 @@
             "beforeGameStart": {
                 "initialBoardSetup": [
                     {
-                        "drawFromTop": "Deck",
+                        "drawFromTop": "Cheer",
                         "count": "6",
                         "destination": "Life"
                     }
@@ -40,7 +40,7 @@
             },
             "mulligan": {
                 "info": "Redraw Hand",
-                "startingHandSize": 6,
+                "startingHandSize": 7,
                 "drawNewHand": true,
                 "putSelectionAtBottom": false,
                 "drawNewSelectedCards": false
@@ -56,7 +56,7 @@
             "countersStartingValues": [
                 0
             ],
-            "hideFacedDownCards": false,
+            "hideFacedDownCards": true,
             "sections": {
                 "customSections": [
                     "Cheer",
