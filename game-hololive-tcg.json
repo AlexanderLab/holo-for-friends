@@ -11,7 +11,11 @@
     "cardRotation": 45,
     "cards": {
         "dataUrl": "https://raw.githubusercontent.com/AlexanderLab/holo-for-friends/main/cards-hololive.json",
-        "cardBack": "https://static.zerochan.net/Watson.Amelia.1024.3563406.webp"
+        "cardBack": "https://static.zerochan.net/Watson.Amelia.1024.3563406.webp",
+        "extraCardBacks": {
+            "cheer": "https://static.zerochan.net/Hololive.full.3894314.jpg",
+            "Cheer": "https://static.zerochan.net/Hololive.full.3894314.jpg"
+        }
     },
     "deckBuilding": {
         "mainFilters": [
