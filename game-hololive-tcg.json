@@ -58,7 +58,8 @@
                     "cheer",
                     "Life",
                     "oshi",
-                    "Stage"
+                    "Stage",
+                    "Bench"
                 ],
                 "layout": {
                     "direction": "row",
@@ -96,6 +97,10 @@
                             "content": [
                                 {
                                     "section": "Stage",
+                                    "style": false
+                                },
+                                {
+                                    "section": "Bench",
                                     "style": false
                                 }
                             ],
