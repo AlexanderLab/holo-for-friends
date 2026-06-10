@@ -19,11 +19,7 @@
             {
                 "title": "Standard",
                 "gameplay": "Classic",
-                "customCategories": [
-                    "Oshi",
-                    "Main",
-                    "Cheer"
-                ]
+                "customCategories": []
             }
         ]
     },
@@ -133,7 +129,7 @@
                         "title": "Cheer",
                         "isHidden": "yes",
                         "height": "SMALL",
-                        "alignment": "START",
+                        "alignment": "DECK",
                         "opponentAlignment": false,
                         "noAutoPayTo": "true",
                         "isHorizontalAllowed": false,
