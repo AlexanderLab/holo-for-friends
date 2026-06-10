@@ -14,7 +14,12 @@
         "cardBack": "https://static.zerochan.net/Watson.Amelia.1024.3563406.webp"
     },
     "deckBuilding": {
-        "mainFilters": ["type", "cost", "name", "category"],
+        "mainFilters": [
+            "type",
+            "cost",
+            "name",
+            "category"
+        ],
         "formats": [
             {
                 "title": "Standard",
@@ -28,7 +33,7 @@
             "beforeGameStart": {
                 "initialBoardSetup": [
                     {
-                        "drawFromTop": "Cheer",
+                        "drawFromTop": "cheer",
                         "count": "6",
                         "destination": "Life"
                     }
@@ -55,9 +60,9 @@
             "hideFacedDownCards": true,
             "sections": {
                 "customSections": [
-                    "Cheer",
+                    "cheer",
                     "Life",
-                    "Oshi",
+                    "oshi",
                     "Stage"
                 ],
                 "layout": {
@@ -84,7 +89,7 @@
                             },
                             "content": [
                                 {
-                                    "section": "Oshi",
+                                    "section": "oshi",
                                     "style": false
                                 }
                             ],
@@ -108,7 +113,7 @@
                             },
                             "content": [
                                 {
-                                    "section": "Cheer",
+                                    "section": "cheer",
                                     "style": false
                                 }
                             ],
@@ -117,7 +122,8 @@
                     ]
                 },
                 "categoriesAlreadyOnBoard": [
-                    "Oshi"
+                    "oshi",
+                    "cheer"
                 ],
                 "autoPlayFromHand": {
                     "holomem": "Stage",
@@ -125,8 +131,8 @@
                 },
                 "autoPlayFromStack": {},
                 "sectionsDict": {
-                    "Cheer": {
-                        "title": "Cheer",
+                    "cheer": {
+                        "title": "cheer",
                         "isHidden": "yes",
                         "height": "SMALL",
                         "alignment": "DECK",
@@ -157,8 +163,8 @@
                         "keepTappedNewTurn": false,
                         "showHiddenCardInHistory": false
                     },
-                    "Oshi": {
-                        "title": "Oshi",
+                    "oshi": {
+                        "title": "oshi",
                         "isHidden": "no",
                         "height": "SMALL",
                         "alignment": "CENTER",
