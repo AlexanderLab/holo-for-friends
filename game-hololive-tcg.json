@@ -35,13 +35,7 @@
     "gameplay": {
         "Classic": {
             "beforeGameStart": {
-                "initialBoardSetup": [
-                    {
-                        "drawFromTop": "cheer",
-                        "count": "6",
-                        "destination": "Life"
-                    }
-                ]
+                "initialBoardSetup": []
             },
             "mulligan": {
                 "info": "Redraw Hand",
