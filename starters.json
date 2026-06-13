@@ -1,184 +1,280 @@
-{
-    "DECK1": {
-        "title": "Choco",
-        "id": "a6e25aa7-9aa8-4841-b353-b3d1e22b251b",
-        "cardCount": 71,
-        "createdAt": "2026-06-13T08:54:39.738Z",
-        "lastModifiedAt": "2026-06-13T10:15:02.117Z",
-        "game": "Hololive - TCG Enyoyers",
-        "format": [
-            "Standard"
-        ],
-        "deckList": {
-            "categoriesOrder": [
-                "holomem",
-                "support",
-                "cheer",
-                "oshi"
-            ],
-            "holomem": [
-                {
-                    "count": 4,
-                    "id": "hSD04-003"
-                },
-                {
-                    "count": 2,
-                    "id": "hBP05-053"
-                },
-                {
-                    "count": 6,
-                    "id": "hSD04-002"
-                },
-                {
-                    "count": 4,
-                    "id": "hBP05-055"
-                },
-                {
-                    "count": 4,
-                    "id": "hSD04-007"
-                },
-                {
-                    "count": 3,
-                    "id": "hBP02-060"
-                },
-                {
-                    "count": 4,
-                    "id": "hBP05-056"
-                },
-                {
-                    "count": 2,
-                    "id": "hSD04-009"
-                }
-            ],
-            "support": [
-                {
-                    "count": 2,
-                    "id": "hSD04-013"
-                },
-                {
-                    "count": 4,
-                    "id": "hBP05-076"
-                },
-                {
-                    "count": 4,
-                    "id": "hBP01-104"
-                },
-                {
-                    "count": 4,
-                    "id": "hBP05-080"
-                },
-                {
-                    "count": 2,
-                    "id": "hBP02-084"
-                },
-                {
-                    "count": 1,
-                    "id": "hSD01-017"
-                },
-                {
-                    "count": 4,
-                    "id": "hSD01-016"
-                }
-            ],
-            "cheer": [
-                {
-                    "count": 20,
-                    "id": "hY05-006"
-                }
-            ],
-            "oshi": [
-                {
-                    "count": 1,
-                    "id": "hBP05-005"
-                }
-            ]
+[
+  {
+    "title": "Choco",
+    "id": "a6e25aa7-9aa8-4841-b353-b3d1e22b251b",
+    "cardCount": 71,
+    "createdAt": "2026-06-13T08:54:39.738Z",
+    "lastModifiedAt": "2026-06-13T10:15:02.117Z",
+    "game": "Hololive - TCG Enyoyers",
+    "format": "Standard",
+    "deckList": {
+      "categoriesOrder": [
+        "holomem",
+        "support",
+        "cheer",
+        "oshi"
+      ],
+      "Sideboard": [],
+      "holomem": [
+        {
+          "count": 4,
+          "id": "hSD04-003"
+        },
+        {
+          "count": 2,
+          "id": "hBP05-053"
+        },
+        {
+          "count": 6,
+          "id": "hSD04-002"
+        },
+        {
+          "count": 4,
+          "id": "hBP05-055"
+        },
+        {
+          "count": 4,
+          "id": "hSD04-007"
+        },
+        {
+          "count": 3,
+          "id": "hBP02-060"
+        },
+        {
+          "count": 4,
+          "id": "hBP05-056"
+        },
+        {
+          "count": 2,
+          "id": "hSD04-009"
         }
-    },
-    "DECK2": {
-        "title": "Kanata",
-        "id": "c60d5451-62be-4c59-9364-928ca6bd156e",
-        "cardCount": 67,
-        "createdAt": "2026-06-13T17:07:37.940Z",
-        "lastModifiedAt": "2026-06-13T17:18:05.656Z",
-        "game": "Hololive - TCG Enyoyers",
-        "format": [
-            "Standard"
-        ],
-        "deckList": {
-            "categoriesOrder": [
-                "oshi",
-                "holomem",
-                "support",
-                "cheer"
-            ],
-            "oshi": [
-                {
-                    "count": 1,
-                    "id": "hBP01-001"
-                }
-            ],
-            "holomem": [
-                {
-                    "count": 11,
-                    "id": "hBP01-009"
-                },
-                {
-                    "count": 1,
-                    "id": "hBP01-010"
-                },
-                {
-                    "count": 4,
-                    "id": "hBP01-012"
-                },
-                {
-                    "count": 4,
-                    "id": "hBP01-013"
-                },
-                {
-                    "count": 4,
-                    "id": "hBP01-014"
-                },
-                {
-                    "count": 1,
-                    "id": "hBP02-019"
-                }
-            ],
-            "support": [
-                {
-                    "count": 1,
-                    "id": "hBP01-108"
-                },
-                {
-                    "count": 4,
-                    "id": "hBP01-104"
-                },
-                {
-                    "count": 4,
-                    "id": "hBP01-116"
-                },
-                {
-                    "count": 1,
-                    "id": "hBP02-077"
-                },
-                {
-                    "count": 3,
-                    "id": "hBP02-084"
-                },
-                {
-                    "count": 4,
-                    "id": "hSD01-016"
-                },
-                {
-                    "count": 4,
-                    "id": "hSD01-017"
-                }
-            ],
-            "cheer": [
-                {
-                    "count": 20,
-                    "id": "hY01-003"
-                }
-            ]
+      ],
+      "support": [
+        {
+          "count": 2,
+          "id": "hSD04-013"
+        },
+        {
+          "count": 4,
+          "id": "hBP05-076"
+        },
+        {
+          "count": 4,
+          "id": "hBP01-104"
+        },
+        {
+          "count": 4,
+          "id": "hBP05-080"
+        },
+        {
+          "count": 2,
+          "id": "hBP02-084"
+        },
+        {
+          "count": 1,
+          "id": "hSD01-017"
+        },
+        {
+          "count": 4,
+          "id": "hSD01-016"
         }
+      ],
+      "cheer": [
+        {
+          "count": 20,
+          "id": "hY05-006"
+        }
+      ],
+      "oshi": [
+        {
+          "count": 1,
+          "id": "hBP05-005"
+        }
+      ]
     }
-}
+  },
+  {
+    "title": "Kanata",
+    "id": "c60d5451-62be-4c59-9364-928ca6bd156e",
+    "cardCount": 67,
+    "createdAt": "2026-06-13T17:07:37.940Z",
+    "lastModifiedAt": "2026-06-13T17:18:05.656Z",
+    "game": "Hololive - TCG Enyoyers",
+    "format": "Standard",
+    "deckList": {
+      "categoriesOrder": [
+        "oshi",
+        "holomem",
+        "support",
+        "cheer"
+      ],
+      "Sideboard": [],
+      "oshi": [
+        {
+          "count": 1,
+          "id": "hBP01-001"
+        }
+      ],
+      "holomem": [
+        {
+          "count": 11,
+          "id": "hBP01-009"
+        },
+        {
+          "count": 1,
+          "id": "hBP01-010"
+        },
+        {
+          "count": 4,
+          "id": "hBP01-012"
+        },
+        {
+          "count": 4,
+          "id": "hBP01-013"
+        },
+        {
+          "count": 4,
+          "id": "hBP01-014"
+        },
+        {
+          "count": 1,
+          "id": "hBP02-019"
+        }
+      ],
+      "support": [
+        {
+          "count": 1,
+          "id": "hBP01-108"
+        },
+        {
+          "count": 4,
+          "id": "hBP01-104"
+        },
+        {
+          "count": 4,
+          "id": "hBP01-116"
+        },
+        {
+          "count": 1,
+          "id": "hBP02-077"
+        },
+        {
+          "count": 3,
+          "id": "hBP02-084"
+        },
+        {
+          "count": 4,
+          "id": "hSD01-016"
+        },
+        {
+          "count": 4,
+          "id": "hSD01-017"
+        }
+      ],
+      "cheer": [
+        {
+          "count": 20,
+          "id": "hY01-003"
+        }
+      ]
+    }
+  },
+  {
+    "title": "Ollie",
+    "id": "76f0b994-3b8c-4017-b02f-dfa3e13f0b4f",
+    "cardCount": 69,
+    "createdAt": "2026-06-14T01:22:35.826Z",
+    "lastModifiedAt": "2026-06-14T01:49:08.646Z",
+    "game": "Hololive - TCG Enyoyers",
+    "format": "Standard",
+    "deckList": {
+      "categoriesOrder": [
+        "oshi",
+        "holomem",
+        "support",
+        "cheer"
+      ],
+      "Sideboard": [],
+      "oshi": [
+        {
+          "count": 1,
+          "id": "hBP01-002"
+        }
+      ],
+      "holomem": [
+        {
+          "count": 4,
+          "id": "hBP01-007"
+        },
+        {
+          "count": 1,
+          "id": "hBP01-010"
+        },
+        {
+          "count": 4,
+          "id": "hBP01-011"
+        },
+        {
+          "count": 4,
+          "id": "hBP01-012"
+        },
+        {
+          "count": 4,
+          "id": "hBP01-013"
+        },
+        {
+          "count": 4,
+          "id": "hBP01-014"
+        },
+        {
+          "count": 1,
+          "id": "hBP02-020"
+        },
+        {
+          "count": 4,
+          "id": "hBP02-021"
+        }
+      ],
+      "support": [
+        {
+          "count": 2,
+          "id": "hBP01-108"
+        },
+        {
+          "count": 1,
+          "id": "hBP01-109"
+        },
+        {
+          "count": 4,
+          "id": "hBP01-116"
+        },
+        {
+          "count": 1,
+          "id": "hBP02-077"
+        },
+        {
+          "count": 1,
+          "id": "hBP02-080"
+        },
+        {
+          "count": 3,
+          "id": "hBP02-084"
+        },
+        {
+          "count": 4,
+          "id": "hSD01-017"
+        },
+        {
+          "count": 4,
+          "id": "hSD01-016"
+        }
+      ],
+      "cheer": [
+        {
+          "count": 20,
+          "id": "hY02-004"
+        }
+      ]
+    }
+  }
+]
