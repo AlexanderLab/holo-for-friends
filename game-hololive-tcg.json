@@ -3,7 +3,8 @@
     "menuBackgroundImage": "https://static.zerochan.net/Hololive.1024.2519055.webp",
     "defaultRessources": {
         "backgrounds": [
-            "https://static.zerochan.net/Hololive.1024.2519055.webp"
+            "https://static.zerochan.net/Hololive.1024.2519055.webp",
+            "https://images8.alphacoders.com/126/thumb-1920-1262705.jpg"
         ],
         "decksUrl": "https://raw.githubusercontent.com/AlexanderLab/holo-for-friends/refs/heads/main/starters.json"
     },
