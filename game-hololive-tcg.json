@@ -97,25 +97,18 @@
                             "content": [
                                 {
                                     "section": "Stage",
-                                    "style": false
-                                },
-                                {
-                                    "section": "Bench",
-                                    "style": false
-                                }
-                            ],
-                            "isSymetricalForOpponents": false
-                        },
-                        {
-                            "direction": "column",
-                            "style": false,
-                            "content": [
-                                {
-                                    "section": "Stage",
-                                    "style": false
+                                    "style": {
+                                        "width": "32vh"
+                                    }
                                 },
                                 {
                                     "section": "Collab",
+                                    "style": {
+                                        "width": "32vh"
+                                    }
+                                },
+                                {
+                                    "section": "Bench",
                                     "style": false
                                 }
                             ],
@@ -214,7 +207,7 @@
                         "title": "Collab",
                         "isHidden": "no",
                         "height": "MEDIUM",
-                        "alignment": "START",
+                        "alignment": "CENTER",
                         "opponentAlignment": false,
                         "noAutoPayTo": false,
                         "isHorizontalAllowed": true,
