@@ -199,7 +199,7 @@
                         "title": "Bench",
                         "isHidden": "no",
                         "height": "MEDIUM",
-                        "alignment": "START",
+                        "alignment": "CENTER",
                         "opponentAlignment": false,
                         "noAutoPayTo": false,
                         "isHorizontalAllowed": true,
