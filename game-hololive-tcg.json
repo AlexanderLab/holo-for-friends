@@ -5,7 +5,7 @@
         "backgrounds": [
             "https://static.zerochan.net/Hololive.1024.2519055.webp"
         ],
-        "decksUrl": ""
+        "decksUrl": "https://raw.githubusercontent.com/AlexanderLab/holo-for-friends/refs/heads/main/starters.json"
     },
     "customHelp": "Hololive TCG para mis enyoyers",
     "cardRotation": 90,
