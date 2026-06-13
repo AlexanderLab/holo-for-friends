@@ -108,6 +108,21 @@
                         },
                         {
                             "direction": "column",
+                            "style": false,
+                            "content": [
+                                {
+                                    "section": "Stage",
+                                    "style": false
+                                },
+                                {
+                                    "section": "Collab",
+                                    "style": false
+                                }
+                            ],
+                            "isSymetricalForOpponents": false
+                        },
+                        {
+                            "direction": "column",
                             "style": {
                                 "width": "22vh"
                             },
@@ -195,10 +210,26 @@
                         "keepTappedNewTurn": false,
                         "showHiddenCardInHistory": false
                     },
+                    "Collab": {
+                        "title": "Collab",
+                        "isHidden": "no",
+                        "height": "MEDIUM",
+                        "alignment": "START",
+                        "opponentAlignment": false,
+                        "noAutoPayTo": false,
+                        "isHorizontalAllowed": true,
+                        "displayedTitle": "Collab",
+                        "noQuickActions": false,
+                        "enterTapped": false,
+                        "enterSpun": false,
+                        "isGroupForbidden": false,
+                        "keepTappedNewTurn": false,
+                        "showHiddenCardInHistory": false
+                    },
                     "Bench": {
                         "title": "Bench",
                         "isHidden": "no",
-                        "height": "SMALL",
+                        "height": "MEDIUM",
                         "alignment": "CENTER",
                         "opponentAlignment": false,
                         "noAutoPayTo": false,
