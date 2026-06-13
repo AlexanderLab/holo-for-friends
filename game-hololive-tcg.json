@@ -59,6 +59,7 @@
                     "Life",
                     "oshi",
                     "Stage",
+                    "Collab",
                     "Bench"
                 ],
                 "layout": {
@@ -92,30 +93,30 @@
                             "isSymetricalForOpponents": false
                         },
                         {
-                            "direction": "row",
-                            "style": false,
-                            "content": [
-                                {
-                                    "section": "Stage",
-                                    "style": {
-                                        "width": "32vh"
-                                    }
-                                },
-                                {
-                                    "section": "Collab",
-                                    "style": {
-                                        "width": "32vh"
-                                    }
-                                }
-                            ],
-                            "isSymetricalForOpponents": false
-                        },
-                        {
                             "direction": "column",
                             "style": false,
                             "content": [
                                 {
-                                    "section": "bench",
+                                    "direction": "row",
+                                    "style": false,
+                                    "content": [
+                                        {
+                                            "section": "Stage",
+                                            "style": {
+                                                "width": "32vh"
+                                            }
+                                        },
+                                        {
+                                            "section": "Collab",
+                                            "style": {
+                                                "width": "32vh"
+                                            }
+                                        }
+                                    ],
+                                    "isSymetricalForOpponents": false
+                                },
+                                {
+                                    "section": "Bench",
                                     "style": false
                                 }
                             ],
