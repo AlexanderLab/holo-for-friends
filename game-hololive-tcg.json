@@ -8,7 +8,7 @@
         "decksUrl": ""
     },
     "customHelp": "Hololive TCG para mis enyoyers",
-    "cardRotation": 45,
+    "cardRotation": 90,
     "cards": {
         "dataUrl": "https://raw.githubusercontent.com/AlexanderLab/holo-for-friends/main/cards-hololive.json",
         "cardBack": "https://static.zerochan.net/Watson.Amelia.1024.3563406.webp",
@@ -198,7 +198,7 @@
                     "Bench": {
                         "title": "Bench",
                         "isHidden": "no",
-                        "height": "MEDIUM",
+                        "height": "SMALL",
                         "alignment": "CENTER",
                         "opponentAlignment": false,
                         "noAutoPayTo": false,
