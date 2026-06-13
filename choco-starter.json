@@ -1,0 +1,95 @@
+{
+    "title": "Choco",
+    "id": "a6e25aa7-9aa8-4841-b353-b3d1e22b251b",
+    "cardCount": 71,
+    "createdAt": "2026-06-13T08:54:39.738Z",
+    "lastModifiedAt": "2026-06-13T10:15:02.117Z",
+    "game": "Hololive - TCG Enyoyers",
+    "format": [
+        "Standard"
+    ],
+    "deckList": {
+        "categoriesOrder": [
+            "holomem",
+            "support",
+            "cheer",
+            "oshi"
+        ],
+        "holomem": [
+            {
+                "count": 4,
+                "id": "hSD04-003"
+            },
+            {
+                "count": 2,
+                "id": "hBP05-053"
+            },
+            {
+                "count": 6,
+                "id": "hSD04-002"
+            },
+            {
+                "count": 4,
+                "id": "hBP05-055"
+            },
+            {
+                "count": 4,
+                "id": "hSD04-007"
+            },
+            {
+                "count": 3,
+                "id": "hBP02-060"
+            },
+            {
+                "count": 4,
+                "id": "hBP05-056"
+            },
+            {
+                "count": 2,
+                "id": "hSD04-009"
+            }
+        ],
+        "support": [
+            {
+                "count": 2,
+                "id": "hSD04-013"
+            },
+            {
+                "count": 4,
+                "id": "hBP05-076"
+            },
+            {
+                "count": 4,
+                "id": "hBP01-104"
+            },
+            {
+                "count": 4,
+                "id": "hBP05-080"
+            },
+            {
+                "count": 2,
+                "id": "hBP02-084"
+            },
+            {
+                "count": 1,
+                "id": "hSD01-017"
+            },
+            {
+                "count": 4,
+                "id": "hSD01-016"
+            }
+        ],
+        "cheer": [
+            {
+                "count": 20,
+                "id": "hY05-006"
+            }
+        ],
+        "oshi": [
+            {
+                "count": 1,
+                "id": "hBP05-005"
+            }
+        ]
+    }
+}
