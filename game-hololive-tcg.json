@@ -4,7 +4,10 @@
     "defaultRessources": {
         "backgrounds": [
             "https://static.zerochan.net/Hololive.1024.2519055.webp",
-            "https://images8.alphacoders.com/126/thumb-1920-1262705.jpg"
+            "https://images8.alphacoders.com/126/thumb-1920-1262705.jpg",
+            "https://images7.alphacoders.com/130/thumb-1920-1309904.jpg",
+            "https://images6.alphacoders.com/130/thumb-1920-1302380.jpg",
+            "https://images6.alphacoders.com/113/thumb-1920-1130902.png"
         ],
         "decksUrl": "https://raw.githubusercontent.com/AlexanderLab/holo-for-friends/refs/heads/main/starters.json"
     },
